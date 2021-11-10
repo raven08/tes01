@@ -1,0 +1,44 @@
+h1:hover{
+    background: black;
+}
+body,h1,h2,h3,td,tr,p,a,span,li, ol{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+p::selection{
+    color: white;
+    background: #0a0133;
+}
+p{
+    height: 20px;
+    margin: 20px;
+}
+.hobby{
+    display: block;
+}
+
+h1{
+    position: sticky;
+    top: 30px;
+    font-size: 2em;
+}
+
+body{
+    background-color:rgb(24, 172, 240);
+}
+span{
+    color: maroon;
+}
+.yakobus,.sosial,.hobby,.art,.contact{
+    background-color: rgba(216, 191, 216, 0.7 );
+    width: 800px;
+    color: black;
+    margin: 20px auto;
+    padding: 15px;
+}
+@media screen and (max-width: 900px) {
+    h1{
+        font-size: 3em;
+    }
+    
+ }
